@@ -1,0 +1,22 @@
+http://www.gameofhacks.com/
+https://www.hacksplaining.com
+
+Videos:
+https://www.youtube.com/watch?v=zjBVKFlJMeU
+
+
+Hashing password:
+https://www.owasp.org/index.php/Using_Rfc2898DeriveBytes_for_PBKDF2
+https://crackstation.net/hashing-security.htm
+
+
+run ZAP from command line:
+http://www.morethanseven.net/2014/06/23/using-owasp-zap-from-the-command-line/
+
+
+http://lockmedown.com/preventing-xss-in-asp-net-made-easy/
+
+
+http://caniuse.com/
+
+https://scotthelme.co.uk

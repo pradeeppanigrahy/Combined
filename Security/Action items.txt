@@ -1,0 +1,35 @@
+Implement request validation and sanitization in web api to prevent XSS
+http://stackoverflow.com/questions/24502609/how-can-i-sanitize-input-on-a-webapi-model
+http://www.strathweb.com/2012/10/clean-up-your-web-api-controllers-with-model-validation-and-null-check-filters/
+
+Add anti forgery token in web application to prevent XSRF( generic approach to add token automatically to all request)
+http://stackoverflow.com/questions/19788916/how-to-make-ajax-request-with-anti-forgery-token-in-mvc
+
+Generate new session id when previlege changes like when user logs in 
+clear out session id cookie on log out or browser or tab close
+
+
+Add x frame options to response to prevent from clickjacking attack
+
+Remove unwanted headers like server, asp.net version and so on
+https://ict.ken.be/removing-x-powered-by-aspnet-and-other-version-headers
+
+Consider using robots.txt file to exclude hidden apis
+https://en.wikipedia.org/wiki/Robots_exclusion_standard
+
+Apply security on static files like pdfs and so on
+http://stackoverflow.com/questions/11973459/aspnet-static-file-access-with-authentication
+http://stackoverflow.com/questions/26109656/authorization-for-static-files-in-asp-net-mvc-w-owin
+
+
+Try wireshark,winpcap
+
+
+Enable HSTS mode and redirect from HTTP to HTTPS
+http://www.hanselman.com/blog/HowToEnableHTTPStrictTransportSecurityHSTSInIIS7.aspx
+
+encrypt connection string using aspnet_regiis command-line tool
+
+Enable SSL and mark sensitive cookies as secure
+
+Implement TLS 1.2

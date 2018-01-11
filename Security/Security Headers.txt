@@ -1,0 +1,69 @@
+X prefixed headers are non-standard headers and may be not supported by some browsers
+
+CSP stands for Content Security Policy.
+Is an W3C specification offering the possbility to instruct the client browser from which location and/or which type of resources are allowed to be loaded. To define a loading behavior, the CSP specification use "directive" where a directive defines a loading behavior for a target resource type.
+
+CSP is a way of whitelisting what your site is allowed to run
+
+
+
+Strict-Transport-Security 
+Content-Security-Policy 
+Public-Key-Pins 
+X-Frame-Options 
+X-XSS-Protection 
+X-Content-Type-Options
+
+
+
+Strict-Transport-Security	HTTP Strict Transport Security is an excellent feature to support on your site and strengthens your implementation of TLS by getting the User Agent to enforce the use of HTTPS. Recommended value "strict-transport-security: max-age=31536000; includeSubdomains".
+Content-Security-Policy	Content Security Policy is an effective measure to protect your site from XSS attacks. By whitelisting sources of approved content, you can prevent the browser from loading malicious assets.
+
+Public-Key-Pins	HTTP Public Key Pinning protects your site from MiTM attacks using rogue X.509 certificates. By whitelisting only the identities that the browser should trust, your users are protected in the event a certificate authority is compromised.
+
+X-Frame-Options	X-Frame-Options tells the browser whether you want to allow your site to be framed or not. By preventing a browser from framing your site you can defend against attacks like clickjacking. Recommended value "x-frame-options: SAMEORIGIN".
+
+X-XSS-Protection	X-XSS-Protection sets the configuration for the cross-site scripting filter built into most browsers. Recommended value "X-XSS-Protection: 1; mode=block".
+
+X-Content-Type-Options	X-Content-Type-Options stops a browser from trying to MIME-sniff the content type and forces it to stick with the declared content-type. The only valid value for this header is "X-Content-Type-Options: nosniff".
+
+
+
+HSTS:
+
+Strict-Transport-Security:
+max-age=31536000; includesubdomains; preload
+
+Relies on "Trust on first use"( TOFU)
+
+HSTS is applied on entire domain->applied on all files including js,css etc
+To access few files over http then put those on another domain and turn on HSTS only on primary domain where critical information are serverd from
+
+
+To modify HSTS through browser:
+chrome://net-internals/#hsts
+
+
+To include a domain in HSTS preload list:
+hstspreload.appspot.com
+
+It means broswer will check HSTS preload list and if the domain is found issue https request at first load itself
+
+
+HPKP:
+Openssl to generate public key pin for a cerificate
+Relies on "Trust on first use"( TOFU)
+HTTP Public Key Pinning (HPKP),[1] sometimes incorrectly known as certificate pinning, is a security mechanism which allows HTTPS websites to resist impersonation by attackers using mis-issued or otherwise fraudulent certificates.
+
+For example, attackers might compromise a certificate authority, and then mis-issue certificates for a web origin. To combat this risk, the HTTPS web server serves a list of “pinned” public key hashes; on subsequent connections clients expect that server to use one or more of those public keys in its certificate chain.
+
+
+
+
+
+
+Tools for security headers:
+securityheaders.io
+report-uri.io
+csp fiddle extension
+Nwebsec

@@ -1,0 +1,105 @@
+Static analysis tools:
+Checkmarx
+CPPCheck
+
+
+
+Dynamic analysis tools:
+Burp suite
+netsparker
+ZAP(Zed attack proxy) by owasp
+OWASP security shepherd
+
+
+Sql injection tools:
+Havij-> sql injection tool
+sqlMap-> sql injection tool
+Browser addons:
+Sql inject me
+
+
+secure assist
+dev skim
+Appscan
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Checkmarx(static analyis tool)
+Burp suite
+netsparker
+ZAP(Zed attack proxy) by owasp
+OWASP security shepherd
+Havij-> sql injection tool
+sqlMap-> sql injection tool
+
+
+
+Firesheep plug in for firefox
+Request maker
+wireshark
+live http headers
+modify headers
+firesheep
+greasemonkey
+Webgoat
+
+Webscarab and Paros proxy
+
+
+SQLMap for sqlinjection
+
+
+Threadfix
+
+Can: for man in the middle attack(MITM)
+
+
+plug-n-hack:
+firefox( via an add-on)
+ZAP(ditto)
+Minion
+Burp suite
+OWASP OWTF
+Kali
+
+
+Configure security shepherd
+
+
+https://securityheaders.io
+
+
+
+Static Analysis tools:
+CPPCheck
+
+
+Browser addons:
+Sql inject me
+
+
+
+
+
+
+
+
+
+
+

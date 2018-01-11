@@ -1,0 +1,39 @@
+Scanning netowrks:
+Types of scanning:
+Network
+Port
+
+What is a port:
+Port is an ipaddress+ protocol
+ex ipaddress+http
+
+Tools used:
+Command line
+Nmap
+Angry IP scanner
+solarwinds
+colasoft ping
+
+
+TCP:
+Negotiate a connection
+delivery acknowledgements
+retransmission/error detection
+in-order delivery
+congestion control
+bigger headers(20 bytes)
+bigger overhead
+stream oriented
+Examples protocol which uses UDP:
+HTTP, TCP, Telnet
+
+
+UDP:
+Connectionless based
+smaller packets(8 bytes)
+Only 1 packets goes at a time
+out of order
+No congestion control
+Message oriented
+Examples protocol which uses UDP:
+DNS, DHCP
