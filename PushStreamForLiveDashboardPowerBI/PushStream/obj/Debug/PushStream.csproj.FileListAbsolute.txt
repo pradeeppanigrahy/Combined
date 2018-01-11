@@ -1,0 +1,8 @@
+D:\Self\CortanaIntelligenceSuite\SampleProjects\PushStream\PushStream\bin\Debug\PushStream.exe.config
+D:\Self\CortanaIntelligenceSuite\SampleProjects\PushStream\PushStream\bin\Debug\PushStream.exe
+D:\Self\CortanaIntelligenceSuite\SampleProjects\PushStream\PushStream\bin\Debug\PushStream.pdb
+D:\Self\CortanaIntelligenceSuite\SampleProjects\PushStream\PushStream\bin\Debug\Newtonsoft.Json.dll
+D:\Self\CortanaIntelligenceSuite\SampleProjects\PushStream\PushStream\bin\Debug\Newtonsoft.Json.xml
+D:\Self\CortanaIntelligenceSuite\SampleProjects\PushStream\PushStream\obj\Debug\PushStream.csprojResolveAssemblyReference.cache
+D:\Self\CortanaIntelligenceSuite\SampleProjects\PushStream\PushStream\obj\Debug\PushStream.exe
+D:\Self\CortanaIntelligenceSuite\SampleProjects\PushStream\PushStream\obj\Debug\PushStream.pdb
